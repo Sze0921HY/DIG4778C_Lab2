@@ -30,11 +30,25 @@ public class TestingEditor : Editor
             }
         }
 
-        if (GUILayout.Button("Disable/Enable all Object", GUILayout.Height(40)))
+        var allObjects = GameObject.FindObjectsOfType<Testing>(true);
+        bool anyDisabled = allObjects.Any(obj => !obj.gameObject.activeSelf);
+
+        Color cachedColor = GUI.backgroundColor;
+        if (anyDisabled)
         {
-            foreach (var obj in GameObject.FindObjectsOfType<Testing>(true))
+            GUI.backgroundColor = Color.red;
+        } else 
+        {
+            GUI.backgroundColor = Color.green; 
+        }
+
+
+        if (GUILayout.Button("Disable/Enable all Object", GUILayout.Height(50)))
+        {
+            foreach (var obj in allObjects)
             {
                 obj.gameObject.SetActive(!obj.gameObject.activeSelf);
+                GUI.backgroundColor = Color.red;
             }
         }
     }
