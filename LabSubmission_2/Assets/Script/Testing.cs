@@ -15,21 +15,27 @@ public class TestingEditor : Editor
     {
         base.OnInspectorGUI();
 
-        EditorGUILayout.BeginHorizontal();
-
-        if (GUILayout.Button("Select all cubes/spheres"))
+        using (new EditorGUILayout.HorizontalScope())
         {
-            var allObjectsBehaviour = GameObject.FindObjectsOfType<Testing>(); //wtf is this
-            var allGameObjects = allObjectsBehaviour.Select(enemy => enemy.gameObject).ToArray();
-
-            Selection.objects = allGameObjects;
-        }
+            if (GUILayout.Button("Select all cubes/spheres"))
+            {
+                var allObjectsBehaviour = GameObject.FindObjectsOfType<Testing>(); //wtf is this
+                var allGameObjects = allObjectsBehaviour.Select(enemy => enemy.gameObject).ToArray();
+                Selection.objects = allGameObjects;
+            }
 
         if (GUILayout.Button("Clear selection"))
-        {
-            Selection.objects = new Object[] { (target as Testing).gameObject };
+            {
+                Selection.objects = new Object[] { (target as Testing).gameObject };
+            }
         }
 
-        EditorGUILayout.EndHorizontal();
+        if (GUILayout.Button("Disable/Enable all Object", GUILayout.Height(40)))
+        {
+            foreach (var obj in GameObject.FindObjectsOfType<Testing>(true))
+            {
+                obj.gameObject.SetActive(!obj.gameObject.activeSelf);
+            }
+        }
     }
 }
