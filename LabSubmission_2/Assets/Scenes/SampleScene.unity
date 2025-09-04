@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 25103163}
   - component: {fileID: 25103162}
   - component: {fileID: 25103161}
+  - component: {fileID: 25103165}
   m_Layer: 0
   m_Name: Sphere4
   m_TagString: Untagged
@@ -230,6 +231,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &25103165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25103160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1 &277806034
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +255,7 @@ GameObject:
   - component: {fileID: 277806037}
   - component: {fileID: 277806036}
   - component: {fileID: 277806035}
+  - component: {fileID: 277806039}
   m_Layer: 0
   m_Name: Cube3
   m_TagString: Untagged
@@ -341,6 +355,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &277806039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277806034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1 &327100813
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +379,7 @@ GameObject:
   - component: {fileID: 327100816}
   - component: {fileID: 327100815}
   - component: {fileID: 327100814}
+  - component: {fileID: 327100818}
   m_Layer: 0
   m_Name: Cube1
   m_TagString: Untagged
@@ -452,6 +479,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &327100818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327100813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,6 +640,7 @@ GameObject:
   - component: {fileID: 337015214}
   - component: {fileID: 337015213}
   - component: {fileID: 337015212}
+  - component: {fileID: 337015216}
   m_Layer: 0
   m_Name: Cube5
   m_TagString: Untagged
@@ -700,6 +740,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &337015216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337015211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +891,7 @@ GameObject:
   - component: {fileID: 707055600}
   - component: {fileID: 707055599}
   - component: {fileID: 707055598}
+  - component: {fileID: 707055602}
   m_Layer: 0
   m_Name: Sphere3
   m_TagString: Untagged
@@ -938,6 +991,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &707055602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707055597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,6 +1064,7 @@ GameObject:
   - component: {fileID: 876846474}
   - component: {fileID: 876846473}
   - component: {fileID: 876846472}
+  - component: {fileID: 876846476}
   m_Layer: 0
   m_Name: Cube2
   m_TagString: Untagged
@@ -1098,6 +1164,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &876846476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876846471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1 &1368298342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,6 +1188,7 @@ GameObject:
   - component: {fileID: 1368298345}
   - component: {fileID: 1368298344}
   - component: {fileID: 1368298343}
+  - component: {fileID: 1368298347}
   m_Layer: 0
   m_Name: Sphere2
   m_TagString: Untagged
@@ -1209,6 +1288,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1368298347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368298342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1 &1437931786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1221,6 +1312,7 @@ GameObject:
   - component: {fileID: 1437931789}
   - component: {fileID: 1437931788}
   - component: {fileID: 1437931787}
+  - component: {fileID: 1437931791}
   m_Layer: 0
   m_Name: Cube4
   m_TagString: Untagged
@@ -1320,6 +1412,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1437931791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437931786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1 &1812516908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1436,7 @@ GameObject:
   - component: {fileID: 1812516911}
   - component: {fileID: 1812516910}
   - component: {fileID: 1812516909}
+  - component: {fileID: 1812516913}
   m_Layer: 0
   m_Name: Sphere5
   m_TagString: Untagged
@@ -1431,6 +1536,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1812516913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812516908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1 &2074980555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,6 +1560,7 @@ GameObject:
   - component: {fileID: 2074980558}
   - component: {fileID: 2074980557}
   - component: {fileID: 2074980556}
+  - component: {fileID: 2074980560}
   m_Layer: 0
   m_Name: Sphere1
   m_TagString: Untagged
@@ -1542,6 +1660,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2074980560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074980555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Testing
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
