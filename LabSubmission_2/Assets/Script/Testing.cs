@@ -19,7 +19,7 @@ public class TestingEditor : Editor
 
         if (GUILayout.Button("Select all cubes/spheres"))
         {
-            var allObjectsBehaviour = GameObject.FindObjectsOfType<Testing>();
+            var allObjectsBehaviour = GameObject.FindObjectsOfType<Testing>(); //wtf is this
             var allGameObjects = allObjectsBehaviour.Select(enemy => enemy.gameObject).ToArray();
 
             Selection.objects = allGameObjects;
