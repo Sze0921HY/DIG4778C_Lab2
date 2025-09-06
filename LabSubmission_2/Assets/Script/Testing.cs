@@ -22,6 +22,11 @@ public class TestingEditor : Editor
             EditorGUILayout.PropertyField(size);
         }
 
+        if (size.floatValue < 0) 
+        { 
+            EditorGUILayout.HelpBox("You know there is no negative size...right?", MessageType.Warning); 
+        }
+
         serializedObject.ApplyModifiedProperties();
 
         using (new EditorGUILayout.HorizontalScope())

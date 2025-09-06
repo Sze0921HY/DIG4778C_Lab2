@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1 &277806034
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,6 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1 &327100813
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,6 +493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,6 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,6 +1181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1 &1368298342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,6 +1306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1 &1437931786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,6 +1431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1 &1812516908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,6 +1556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1 &2074980555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,6 +1681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1380f62c029bf41419674fd90173d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
+  size: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
