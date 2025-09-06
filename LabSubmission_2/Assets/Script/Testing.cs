@@ -4,7 +4,7 @@ using UnityEditor;
 
 public class Testing : MonoBehaviour
 {
-    // Just a placeholder MonoBehaviour
+    [SerializeField] private float size;
 }
 
 // Custom editor for Testing
@@ -13,7 +13,16 @@ public class TestingEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        base.OnInspectorGUI();
+        serializedObject.Update();
+
+        var size = serializedObject.FindProperty("size");
+
+        if (size != null)
+        {
+            EditorGUILayout.PropertyField(size);
+        }
+
+        serializedObject.ApplyModifiedProperties();
 
         using (new EditorGUILayout.HorizontalScope())
         {
