@@ -9,6 +9,7 @@ public class Testing : MonoBehaviour
 }
 
 // Custom editor for Testing
+#if UNITY_EDITOR
 [CustomEditor(typeof(Testing)), CanEditMultipleObjects]
 public class TestingEditor : Editor
 {
@@ -73,3 +74,4 @@ public class TestingEditor : Editor
         }
     }
 }
+#endif
